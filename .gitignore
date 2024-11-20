@@ -1,0 +1,24 @@
+.DS_store
+.ipynb_checkpoints/
+__pycache__/
+venv/
+
+# Ignore all text/pdf/pickle/parquet files
+*.txt
+!requirements.txt
+*.pickle
+*.pdf
+*.parquet
+
+# Ignore files related to API keys
+.env
+
+# Ignore everything related to clients
+client_data/
+client_notebooks/
+
+#Ignore testing files for the moment
+pytest/
+
+#Ignore output images to reduce repository size
+images/
